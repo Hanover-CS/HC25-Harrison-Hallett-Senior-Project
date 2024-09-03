@@ -50,3 +50,11 @@ This would be a competing roguelike game, and possibly a source for a game engin
 T-Engine 4 is a game engine that was built to create roguelike games. It operates in Lua and comes with a host of usefull features such as cross-compatibility and easy keyboard and mouse support. The website is also home to a roguelike game called _Tales of Maj'Eyal_. _Tales of Maj'Eyal_ is a topdown tactical RPG roguelike game that seems to still be supported by the developers.
 
 Paragraph about features that relate to my goal and comments on them
+
+# Technologies
+
+## Godot
+
+## Phaser
+
+## T-Engine 4
