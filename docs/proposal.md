@@ -26,6 +26,23 @@ _Hades_ is a desktop application **roguelite** game where you play as the son of
 ## Relevent Technologies
 
 ### Godot versus Phaser
+So I came down to two options for my **game engine** being Godot or Phaser, both have their qualities but I believe Godot will serve my purposes better. Here's why:
+
+Godot:
+- GDSCript
+- Specialized 2d Workflow
+- Supports Desktop applications which is my prefered from
+- Free Open source game engine
+- Language support for GDscript, C#, C++, and comunity support for others
+- Ideal for beginners
+- Built in visual editor for coding
+
+Phaser:
+- JavaScript and TypeScript
+- Predominantly focused on 2D games (Which is a pro over Godot, but I think Godot makes up for it in other ways. It's not like 2D is hard in Godot it just has a wider focus
+- For webbrowser games (I believe it's possible to make a desktop application, but Godot has a built in system for deploying however you'd like)
+- Open source, but some licesing fees for full functionality
+- 
 
 
 ### GDScript
