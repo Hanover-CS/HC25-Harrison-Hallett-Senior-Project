@@ -30,7 +30,7 @@ So I came down to two options for my **game engine** being **Godot** or **Phaser
 
 Godot:
 - GDScript
-- Specialized 2d Workflow
+- Specialized 2D Workflow
 - Supports Desktop applications which is my prefered form
 - Free Open source game engine
 - Language support for GDscript, C#, C++, and comunity support for others
@@ -49,7 +49,7 @@ Given all of these pro's and con's I'm going with **Godot** over **Phaser** beca
 
 
 ### GDScript
-Since I have chosen to go with Godot I will be learning **GDScript** and coding my game in it. This is a brand new language to me, but it has similarities to python. It was designed to be a easy to learn and use language for game design, so I'm excited to get started with it and brush up on my python along the way.[3] If I had chosen Phaser I would be working mostly in **Javascript**, which is something I've never really interacted with before.[1] One reason I'd prefer to work in **GDScript** over **Javascript** is because it has less of the curly bracket stuff going on. Godot also allows for the use of many other languages such as **C++** for some higher level things, if your willing to jump through some extra hoops.[1]
+Since I have chosen to go with Godot I will be learning **GDScript** and coding my game in it. This is a brand new language to me, but it has similarities to **python**. It was designed to be a easy to learn and use language for game design, so I'm excited to get started with it and brush up on my python along the way.[3] If I had chosen Phaser I would be working mostly in **Javascript**, which is something I've never really interacted with before.[1] One reason I'd prefer to work in **GDScript** over **Javascript** is because it has less of the curly bracket stuff going on. Godot also allows for the use of many other languages such as **C++** for some higher level things, if your willing to jump through some extra hoops.[1]
 
 ## References
 [1] L. Bellbrook, "A beginners perspective of Godot vs. Phaser," arcadia.com, Apr 6th 2024. [Online]. Available: https://aircada.com/godot-vs-phaser/. Accessed[September 5th, 2024].
