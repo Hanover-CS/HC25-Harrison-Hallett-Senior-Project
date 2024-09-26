@@ -62,7 +62,7 @@ Since I have chosen to go with Godot I will be learning **GDScript** and coding 
 
 [5] Steam, "Arx Fatalis," https://store.steampowered.com, Nov 12, 2002. [Online]. Available: [https://store.steampowered.com/app/1700/Arx_Fatalis/](https://store.steampowered.com/app/1700/Arx_Fatalis/). Accessed[September 2nd, 2024].
 
-[6] A Good Thing, "Arx Fatalis | The Best Magic System," https://www.youtube.com/, Apr 27, 2022. [Online]. Available: [https://www.youtube.com/watch?v=VarOmJYCVhU](https://www.youtube.com/watch?v=VarOmJYCVhU). Accessed[September 5th, 2024]. 
+[6] A Good Thing, "Arx Fatalis : The Best Magic System," https://www.youtube.com/, Apr 27, 2022. [Online]. Available: [https://www.youtube.com/watch?v=VarOmJYCVhU](https://www.youtube.com/watch?v=VarOmJYCVhU). Accessed[September 5th, 2024]. 
 
 [7] Wikipedia, "Roguelike," https://en.wikipedia.org, September 19th, 2024. Available: [https://en.wikipedia.org/wiki/Roguelike#Growth_of_the_rogue-lite_(2005%E2%80%93onward)](https://en.wikipedia.org/wiki/Roguelike#Growth_of_the_rogue-lite_(2005%E2%80%93onward)). Accessed[September 19th, 2024].
 
