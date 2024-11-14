@@ -11,9 +11,13 @@ config_version=5
 [application]
 
 config/name="Thesis"
-run/main_scene="res://basic_dungeon.tscn"
+run/main_scene="res://Common/basic_dungeon.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://icon.svg"
+config/icon="res://Common/icon.svg"
+
+[autoload]
+
+game_master="*res://scripts/game_master.gd"
 
 [rendering]
 
