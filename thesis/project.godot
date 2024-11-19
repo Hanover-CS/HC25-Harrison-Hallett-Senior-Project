@@ -11,14 +11,26 @@ config_version=5
 [application]
 
 config/name="Thesis"
-run/main_scene="res://Common/basic_dungeon.tscn"
+run/main_scene="res://scenes/world.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://Common/icon.svg"
+run/low_processor_mode=true
+config/icon="res://Trash/icon.svg"
 
 [autoload]
 
 game_master="*res://scripts/game_master.gd"
 
+[display]
+
+window/size/viewport_width=480
+window/size/viewport_height=270
+window/size/resizable=false
+window/energy_saving/keep_screen_on=false
+
+[editor]
+
+naming/convert_text_resources_to_binary=true
+
 [rendering]
 
-environment/defaults/default_clear_color=Color(1, 1, 0.921569, 1)
+environment/defaults/default_clear_color=Color(0.156863, 0.172549, 0.203922, 1)
