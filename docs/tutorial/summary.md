@@ -12,4 +12,4 @@ You can go to _Itch.io_ and download [this](https://o-lobster.itch.io/simple-dun
 ## See also 
 The official Godot Gdscript reference - [https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
 
-Here is the link to Itch.io where you can download free asset packs to customize your game however you want - [https://itch.io/game-assets/tag-16x16/tag-pixel-art/tag-royalty-free](https://itch.io/game-assets/tag-16x16/tag-pixel-art/tag-royalty-free)
+Here is the link to __Itch.io__ where you can download free asset packs to customize your game however you want - [https://itch.io/game-assets/tag-16x16/tag-pixel-art/tag-royalty-free](https://itch.io/game-assets/tag-16x16/tag-pixel-art/tag-royalty-free)
