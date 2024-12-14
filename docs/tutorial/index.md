@@ -13,3 +13,5 @@
 [https://hanover-cs.github.io/HC25-Harrison-Hallett-Senior-Project/tutorial/summary](https://hanover-cs.github.io/HC25-Harrison-Hallett-Senior-Project/tutorial/summary)
 
 
+Next page [https://hanover-cs.github.io/HC25-Harrison-Hallett-Senior-Project/tutorial/introduction](https://hanover-cs.github.io/HC25-Harrison-Hallett-Senior-Project/tutorial/introduction)
+
