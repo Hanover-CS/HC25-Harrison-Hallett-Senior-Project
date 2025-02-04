@@ -1,25 +1,51 @@
-extends CharacterBody2D
+extends Entity
+
+var gold : int = 0
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	super._ready()
+	add_to_group("player")
+	pass 
+
+# abilities
+var move = load_ability("move")
+var fireball = load_ability("fireball")
+var inventory = load_ability("inventory")
+
+# state
+func _get_collisions():
+	var c = get_last_slide_collision()
+	if(c && c.get_collider()): return c.get_collision()
+	else: return null
+
+func interact():
+	var c = _get_collisions()
+	if c && (c.get_groups().size() && c.get_groups().has("interactable")): c.interact()
+
+func read_input():
+	look_at(get_global_mouse_position())
+	var movement = []
+	
+	if Input.is_action_pressed("move_up"): movement.append('up')
+	if Input.is_action_pressed("move_down"): movement.append('down')
+	if Input.is_action_pressed("move_right"): movement.append('right')
+	if Input.is_action_pressed("move_left"): movement.append('left')
+	move.execute(self, movement)
+	
+	if last_ability > global_cooldown:
+		if Input.is_action_pressed("interact"):
+			interact()
+			last_ability = 0
+		if Input.is.action_pressed("ability_1"):
+			fireball.execute(self)
+			last_ability = 0
+		if Input.is_action_pressed("inventory"):
+			inventory.execute(self)
+			last_ability = 0
 
 
-const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
-
-
-func _physics_process(delta: float) -> void:
-	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-
-	# Get the input direction and handle the movement/deceleration.
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var direction := Input.get_axis("ui_left", "ui_right")
-	if direction:
-		velocity.x = direction * SPEED
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-
-	move_and_slide()
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	super.physics_process(delta)
+	_read_input()
