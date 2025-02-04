@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Thesis"
-run/main_scene="res://scenes/world.tscn"
+run/main_scene="res://scenes/world/world.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 run/low_processor_mode=true
 config/icon="res://Trash/icon.svg"
@@ -30,6 +30,10 @@ window/energy_saving/keep_screen_on=false
 [editor]
 
 naming/convert_text_resources_to_binary=true
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/ProceduralSceneGenerator2D/plugin.cfg")
 
 [rendering]
 
