@@ -3,7 +3,7 @@ extends Entity
 var gold : int = 0
 
 # Called when the node enters the scene tree for the first time.
-func _ready() -> void:
+func _ready():
 	super._ready()
 	add_to_group("player")
 	pass 
@@ -47,5 +47,6 @@ func read_input():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	super.physics_process(delta)
-	_read_input()
+	pass
+	#super.physics_process(delta)
+	#_read_input()

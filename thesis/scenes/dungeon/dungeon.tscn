@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://bqyse5rbrwkwv"]
+
+[ext_resource type="Script" path="res://scenes/dungeon/dungeon.gd" id="1_pmmhv"]
+[ext_resource type="PackedScene" uid="uid://bwgwawoh7ac75" path="res://scenes/dungeon/rooms/spawn/spawn.tscn" id="2_tyexn"]
+
+[node name="Dungeon" type="Node2D"]
+script = ExtResource("1_pmmhv")
+
+[node name="Spawn" parent="." instance=ExtResource("2_tyexn")]
