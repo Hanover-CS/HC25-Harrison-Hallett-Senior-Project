@@ -37,7 +37,7 @@ func read_input():
 		if Input.is_action_pressed("interact"):
 			interact()
 			last_ability = 0
-		if Input.is.action_pressed("ability_1"):
+		if Input.is_action_pressed("ability_1"):
 			fireball.execute(self)
 			last_ability = 0
 		if Input.is_action_pressed("inventory"):
