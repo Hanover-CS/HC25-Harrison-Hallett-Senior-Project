@@ -115,7 +115,7 @@ func _physics_process(delta: float) -> void:
 		regen_mana()
 
 func load_ability(ability_name):
-	var scene = load("res//scenes/abilities/" + ability_name + "/" + ability_name + ".tscn")
+	var scene = load("res://scenes/abilities/" + ability_name + "/" + ability_name + ".tscn")
 	var sceneNode = scene.instantiate()
 	add_child(sceneNode)
 	return sceneNode

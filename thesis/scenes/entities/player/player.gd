@@ -11,7 +11,6 @@ func _ready():
 # abilities
 var move = load_ability("move")
 var fireball = load_ability("fireball")
-var inventory = load_ability("inventory")
 
 # state
 func _get_collisions():
@@ -40,9 +39,7 @@ func read_input():
 		if Input.is_action_pressed("ability_1"):
 			fireball.execute(self)
 			last_ability = 0
-		if Input.is_action_pressed("inventory"):
-			inventory.execute(self)
-			last_ability = 0
+
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.

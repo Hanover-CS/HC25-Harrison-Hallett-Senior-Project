@@ -14,11 +14,11 @@ func spawn_current_player():
 	if (is_player_spawned): return
 	
 	# create the player
-	var player = load("res:://scenes/entities/player/player.tscn")
+	var player = load("res://scenes/entities/player/player.tscn")
 	player_node = player.instantiate()
 	player_node.is_player = true
-	var pos_x = 0
-	var pos_y = 0
+	var pos_x = 5
+	var pos_y = 5
 	player_node.position = Vector2(pos_x, pos_y)
 	
 	#create the camera
@@ -28,7 +28,7 @@ func spawn_current_player():
 	
 	# add both to scene
 	add_child(player_node)
-	player_node.add_chld(camera)
+	player_node.add_child(camera)
 	
 	is_player_spawned = true
 	return player_node
