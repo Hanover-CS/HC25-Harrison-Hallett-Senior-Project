@@ -1,5 +1,6 @@
-[gd_scene load_steps=4 format=3 uid="uid://11ilxrfgkxth"]
+[gd_scene load_steps=5 format=3 uid="uid://11ilxrfgkxth"]
 
+[ext_resource type="Script" path="res://scenes/world/world.gd" id="1_e81o6"]
 [ext_resource type="Texture2D" uid="uid://csd00ihfubh4g" path="res://assets/Tiles/FullTileset.png" id="1_hto6w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_smq1l"]
@@ -193,7 +194,8 @@ texture = ExtResource("1_hto6w")
 [sub_resource type="TileSet" id="TileSet_j55sc"]
 sources/0 = SubResource("TileSetAtlasSource_smq1l")
 
-[node name="Game" type="Node2D"]
+[node name="World" type="Node2D"]
+script = ExtResource("1_e81o6")
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_j55sc")
